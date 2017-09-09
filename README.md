@@ -94,7 +94,7 @@ Unless you have an error, congrats! You just cloned your repo to your computer! 
 Demo of the Wikipedia API with a simple python application
 Application takes input from user and returns a summary from wikipedia of the topic
 
-#Install Stuff:
+# Install Stuff:
 ### To install Python 2.7 on Windows: 
 Install [here] (https://www.howtogeek.com/197947/how-to-install-python-on-windows/) :)
 
@@ -105,7 +105,7 @@ Then install Python 2.7 by typing the following in your terminal:
 
     brew install python
 
-###Install a text editor:
+### Install a text editor:
 
    * Any of these will work:
 
