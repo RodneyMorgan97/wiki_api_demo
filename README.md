@@ -96,10 +96,10 @@ Application takes input from user and returns a summary from wikipedia of the to
 
 # Install Stuff:
 ### To install Python 2.7 on Windows: 
-Install [here] (https://www.howtogeek.com/197947/how-to-install-python-on-windows/) :)
+Install [here](https://www.howtogeek.com/197947/how-to-install-python-on-windows/) :)
 
 ### To install Python 2.7 on macOS: 
-First install [Homebrew] (https://brew.sh/) :0
+First install [Homebrew](https://brew.sh/) :0
 
 Then install Python 2.7 by typing the following in your terminal: 
 
@@ -109,6 +109,6 @@ Then install Python 2.7 by typing the following in your terminal:
 
    * Any of these will work:
 
-    * [Visual Studio] (https://code.visualstudio.com/)
-    * [Atom] (https://atom.io/)
-    * [Sublime Text] (https://www.sublimetext.com/)
+    * [Visual Studio](https://code.visualstudio.com/)
+    * [Atom](https://atom.io/)
+    * [Sublime Text](https://www.sublimetext.com/)
