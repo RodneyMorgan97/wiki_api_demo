@@ -107,7 +107,7 @@ Then install Python 2.7 by typing the following in your terminal:
 
 ### Install a text editor:
 
-   Any of these will work:
+  * Any of these will work:
 
     * [Visual Studio](https://code.visualstudio.com/)
     * [Atom](https://atom.io/)
