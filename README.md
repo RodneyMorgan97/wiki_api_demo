@@ -140,18 +140,22 @@ NOW we can go back to the file we created in our text editor and type that same 
 For a simple demo we can take a users input, search wikipedia and give the result back to the user. Pretty simple.
 
 So first we need to accept user's input. Do that like so
+
 `user_input = raw_input("What would you like to learn about today? ")`
 
 Finally search wikipedia and return that search to the user
+
 `print wikipedia.summary(user_input)`
 
 ## What happens next
-To run your sweet little program go back to the terminal and use python to interpret what you wrote `python wiki_api_demo.py`
+To run your sweet little program go back to the terminal and use python to interpret what you wrote
+
+`python wiki_api_demo.py`
 
 
 ## Pushing to our Github Repo with Git
 
-So, now we have our little program! Let's save it to our Github repo, so the whole world can see it!
+So, now we have our program! Let's save it to our Github repo, so the whole world can see it!
 
 Go back to your terminal and navigate to your repo folder. There's three steps to saving to Github:
 
