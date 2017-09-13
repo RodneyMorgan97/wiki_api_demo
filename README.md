@@ -132,7 +132,9 @@ First we need to install the wikipedia API so that Python knows how to use it. T
 * Type `pip install wikipedia`
 * If that doesn't work go ahead and give it a [`sudo pip install python`.](https://xkcd.com/149/)
 
-Boom. Now we have wikipedia. Test it out in the python interactive shell. In the terminal type `python`. Once in python try `import wikipedia`. If you have any issues grab one of the floaters to help you out!
+Boom. Now we have wikipedia. Test it out in the python interactive shell. In the terminal type `python`. Once in python try `import wikipedia`.
+
+To leave the interactive shell type `exit()` or press `ctrl-z`. If you have any issues grab one of the floaters to help you out!
 
 
 NOW we can go back to the file we created in our text editor and type that same line `import wikipedia`.
