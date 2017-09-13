@@ -118,30 +118,47 @@ Then install Python 2.7 by typing the following in your terminal:
 
 First open Git Bash if you're on windows or a terminal if you're on macOS
 
-cd (change directory) back into the project folder we cloned before
+`cd` (change directory) back into the project folder we cloned before
 
 Then open that folder in your favorite text editor!
 
-From the editor make a new file and call it 'wiki_api_demo/py'
+From the editor make a new file and call it 'wiki_api_demo.py'
 
 ## What to write
-For this demo we are going to be using the Wikipedia API with Python2. Documentation for the API can be found [here](http://wikipedia.readthedocs.io/en/latest/quickstart.html)
+For this demo we are going to be using the Wikipedia API with Python2. Documentation for the API can be found [here.](http://wikipedia.readthedocs.io/en/latest/quickstart.html)
 
-First we need to install the wikipedia API so that Python knows how to use it. To do that we will use PIP, a package manager for Python.
+First we need to install the wikipedia API so that Python knows how to use it. To do that we will use pip, a package manager for Python.
 
 * Type `pip install wikipedia`
-* If that doesn't work go ahead and give it a []`sudo pip install python`] (https://xkcd.com/149/)
+* If that doesn't work go ahead and give it a [`sudo pip install python`.](https://xkcd.com/149/)
 
 Boom. Now we have wikipedia. Test it out in the python interactive shell. In the terminal type `python`. Once in python try `import wikipedia`. If you have any issues grab one of the floaters to help you out!
 
 
-NOW we can go back to the file we created in our text editor and type that same line `import wikipedia`
+NOW we can go back to the file we created in our text editor and type that same line `import wikipedia`.
 
-For a simple demo we can take the users input and search wikipedia and give the results back to the user. Pretty simple.
+For a simple demo we can take a users input, search wikipedia and give the result back to the user. Pretty simple.
 
-So first we need to accept user's input. Do that like so `user_input = raw_input("What would you like to learn about today? ")`
+So first we need to accept user's input. Do that like so
+`user_input = raw_input("What would you like to learn about today? ")`
 
-Finally search wikipedia and return that search to the user `print wikipedia.summary(user_input)`
+Finally search wikipedia and return that search to the user
+`print wikipedia.summary(user_input)`
 
 ## What happens next
 To run your sweet little program go back to the terminal and use python to interpret what you wrote `python wiki_api_demo.py`
+
+
+## Pushing to our Github Repo with Git
+
+So, now we have our little program! Let's save it to our Github repo, so the whole world can see it!
+
+Go back to your terminal and navigate to your repo folder. There's three steps to saving to Github:
+
+1. Add your files by typing `git add *`. The astrisk * is used to mean "everything in this folder." Alternatively, we could type `git add wiki_api_demo.py` to only submit a single files.
+
+2. Commit your files with `git commit -m "My first commit message"`. Instead of writing "my first commit message", you should really explain what changes you made in this commit. This is called a 'commit message'.  Note that committing your code creates a log of what has been added, and gets it ready to put onto Github, but it doesn't actually transfer it yet!
+
+3. Enter `git push` to "push" all your local commits to your github repo.
+
+If you didn't get any errors, go to Github and see if your code is all there! Congratulations!
